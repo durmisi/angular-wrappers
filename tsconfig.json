@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "select-wrapper": [
+        "dist/select-wrapper"
+      ],
+      "select-wrapper/*": [
+        "dist/select-wrapper/*"
+      ]
+    }
   }
 }
