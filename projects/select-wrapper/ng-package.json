@@ -3,5 +3,9 @@
   "dest": "../../dist/select-wrapper",
   "lib": {
     "entryFile": "src/public_api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": [
+    "tslib",
+    "@ng-select/ng-select"
+  ]
 }

@@ -4,13 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { SelectWrapperModule } from 'select-wrapper';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SelectWrapperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
